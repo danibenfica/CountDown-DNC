@@ -18,3 +18,18 @@ header {
     grid-auto-flow: column;
     margin-top: 20px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    header {
+        grid-auto-columns: 100%;
+    }
+    
+    .timer {
+        grid-auto-columns: 100%;
+        grid-gap: 10px;
+    }
+}
